@@ -1,3 +1,4 @@
+const Player = require('../lib/Player');
 test('creates a player object', () => {
     const player = new Player('Dave');
   
