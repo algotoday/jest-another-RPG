@@ -1,8 +1,6 @@
 const Potion = require('../lib/Potion');
 
-jest.mock('../lib/Potion.js');
-
-console.log(new Potion());
+jest.mock('../lib/Potion');
 
 const Player = require('../lib/Player');
 test('creates a player object', () => {
